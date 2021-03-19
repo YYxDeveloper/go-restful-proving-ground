@@ -1,9 +1,8 @@
 package app
 
-import (
-	"github.com/YYxDeveloper/go-restful-proving-ground/controllers"
-)
+import "github.com/YYxDeveloper/go-restful-proving-ground/controllers"
 
 func mapUrls(){
-	//router.GET("/ping",controllers.Ping)
+	router.GET("/ping",controllers.Ping)
+	//print("xxx")
 }
